@@ -23,6 +23,6 @@ jobs:
       - name: Install dependencies # Instala las dependencias necesarias para ejecutar las pruebas
         run: pip install -r requirements.txt
         
-      - name: Test with pytest # Ejecuta las pruebas utilizando pytest
-        working-directory: src # Directorio donde se encuentran las pruebas...
+      - name: Test with pytest 
+        working-directory: src 
         run: pytest tests.py
